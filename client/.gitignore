@@ -1,0 +1,13 @@
+# dependencies
+/node_modules
+/dist
+/.pnp
+.pnp.js
+
+/corverage
+
+# production
+/build
+
+# misc
+.env

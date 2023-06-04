@@ -27,7 +27,7 @@ const Product = () => {
             <div className="images">
               <img
                 src={
-                  'http://localhost:1337' +
+                  'https://abundant-badge-52f0b9c7f5.strapiapp.com/' +
                   data?.attributes?.img?.data?.attributes?.url
                 }
                 alt=""
@@ -35,7 +35,7 @@ const Product = () => {
               />
               <img
                 src={
-                  'http://localhost:1337' +
+                  'https://abundant-badge-52f0b9c7f5.strapiapp.com/' +
                   data?.attributes?.img2?.data?.attributes?.url
                 }
                 alt=""
@@ -45,7 +45,7 @@ const Product = () => {
             <div className="mainImg">
               <img
                 src={
-                  'http://localhost:1337' +
+                  'https://abundant-badge-52f0b9c7f5.strapiapp.com/' +
                   data?.attributes[selectedImg]?.data?.attributes?.url
                 }
                 alt=""

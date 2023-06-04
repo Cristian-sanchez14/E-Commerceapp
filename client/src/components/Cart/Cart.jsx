@@ -40,7 +40,7 @@ const Cart = () => {
       <h1>Products in your cart</h1>
       {products?.map((item) => (
         <div className="item" key={item.id}>
-          <img src={'http://localhost:1337' + item.img} alt="" />
+          <img src={'https://abundant-badge-52f0b9c7f5.strapiapp.com/' + item.img} alt="" />
           <div className="details">
             <h1>{item.title}</h1>
             <p>{item.desc?.substring(0, 100)}</p>

@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const makeRequest = axios.create({
-  baseURL: 'http://localhost:1337/api/',
+  baseURL: 'https://abundant-badge-52f0b9c7f5.strapiapp.com/api/',
   headers: {
     Authorization:
       'bearer ' +
